@@ -1,0 +1,19 @@
+
+CODE:
+- Added an interface using pygame with menus that enable the interaction with the user
+- Made a playable mode where the user can solve the puzzles by interacting with the program
+- Implemented 2 more Informed Search algorithms:
+    - A*
+    - Weighted A*
+- Changed Heuristic 1 from returning the distance of pieces of the same colour to returning the number of incorrect placed pieces
+- Updated greedy search, where it no longer uses 2 functions but only one for both heuristics, it also works better overall, always reaching a solution, what was not the case before.
+
+PRESENTATION:
+- Changed the Greedy Search slide to suit the changes done to the code
+- Added a slide relative to the A* algorithm implementation and another for the Weighted A* one
+- Changed Heuristics slide to suit the changes done to Heuristic 1
+- Changed tables of each puzzle on Evaluation of Results to include the new algorithms and the changed Greedy Search one, with the use of the new heuristic
+- Changed some minor things on Conclusion and Informed Search slides
+
+REPORT:
+- Completed the report that was only structered with no content yet
